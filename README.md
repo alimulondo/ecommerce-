@@ -5,6 +5,12 @@
 ![Code coverage](https://github.com/alimulondo/ecommerce-/assets/39081836/6305edac-e35c-4c1f-bb95-7058278556a7)
 - SonarQube report
 ![Screenshot from 2024-07-07 10-32-55](https://github.com/alimulondo/ecommerce-/assets/39081836/a7a6ca37-e298-4b87-b004-b0614eedeb13)
+## How to run project tests 
+- clone the repo with git `git clone git@github.com:alimulondo/ecommerce-.git`
+- CD into the cloned folder
+- ensure you have mave and java 21+ installed
+- Run `mvn clean test jacoco:report`
+- Check out the generate report in `$project_folder/target/site/jacoco/index.html`
 
 
 
