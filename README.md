@@ -14,6 +14,12 @@ Some can even get $5 discount on every $100 purchase bill.
 - ensure you have mave and java 21+ installed
 - Run `mvn clean test jacoco:report`
 - Check out the generate report in `$project_folder/target/site/jacoco/index.html`
+## To generate a sonar report
+- Login into your sonar
+- Create a project with this key : `ecommerce-store`
+- Generate a token : `$token`
+- Run with command : `mvn sonar:sonar -Dtoken.login=$token`
+- After the command is done running, check out the project report from sonar dashboard
 
 
 
