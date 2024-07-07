@@ -1,4 +1,7 @@
 # Online Shopping app checkout module
+This project is about a service that enables user get discount when checking out from an online shopping site. 
+Users can receive discount range from 30% to 5% of the total purchase bill based on their categorization. 
+Some can get $5 discount on every $100 purchase bill. 
 - Project UML image
 ![Project-uml](https://github.com/alimulondo/ecommerce-/assets/39081836/07755691-17a9-4928-b812-2e7abf41977f)
 - Jacoco Code coverage image
